@@ -37,7 +37,7 @@ function App() {
     </tbody>
   </table>
   <h4>Overview</h4>
-  <ul>
+  <ul className="list-design">
     <li>2 beds</li>
     <li>1 private bath</li>
   </ul>

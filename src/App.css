@@ -87,18 +87,48 @@ tr:nth-child(even) {
  
 }
 
-.list-design{
+/*.list-design{
   
+}*/
+.heading-style{
+  text-align: left;
+  text-decoration: wavy;
 }
 
-ul {
-  list-style-type:
+.list-design {
+  column-count: 2;
+  list-style-type:none;
   margin: 0;
   padding: 0;
   
+ 
+  
 }
 
-li {
+/*.two-column-list li {
+   Add styling for list items, e.g., padding, margin, and other styles */
+   /* Example margin for spacing between items */
+
+/*In this example, the column-count property is set to 2 for the two-column-list class, which will divide the list into two columns. You can adjust the styling as needed, such as adding margins or other styles to the list items.
+
+Remember to customize the CSS to fit your design and apply the class two-column-list to the specific list that you want to split into two columns.
+
+
+*/
+
+
+
+  
+
+
+.list-design li {
   float: left;
-  <FontAwesomeIcon icon="fa-solid fa-wifi" />
+  margin: 0 0 10px;
+  margin: 1px;
+  padding: 2px;
+
+ 
+}
+hr{
+  color: gray;
 }

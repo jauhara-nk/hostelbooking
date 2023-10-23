@@ -88,5 +88,17 @@ tr:nth-child(even) {
 }
 
 .list-design{
-  display:inline;
+  
+}
+
+ul {
+  list-style-type:
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  float: left;
+  <FontAwesomeIcon icon="fa-solid fa-wifi" />
 }

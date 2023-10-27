@@ -13,25 +13,12 @@ ReactDOM.render(element, document.body)*/}
 function App() {
   return (
     <div className="App">
-      {/*<header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-  </header>*/}
+      <h2>Douglas Villa</h2>
 
 <table className="table-design">
     <tbody>
       <tr>
-        <td rowSpan={2}>
+        <td rowSpan={2} colspan={2}>
           <img src="bathroom.jpg" className="bed-image" />
         </td>
         <td>
@@ -64,7 +51,7 @@ function App() {
     <p className="heading-style">
       <b>This place offers</b>
     </p>
-    <ul className="list-design">
+    <ul className="column">
       <li>tv</li>
       <li>wifi</li>
       <li><FontAwesomeIcon icon="fa-solid fa-utensils" />kitchen</li>

@@ -1,7 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {BsWifi} from 'react-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'; // You can import any icons you need
+import { IconBase } from 'react-icons/lib/esm';
 {/*import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -9,6 +11,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 const element = <FontAwesomeIcon icon={faEnvelope} />
 
 ReactDOM.render(element, document.body)*/}
+
+
 
 function App() {
   return (
@@ -54,7 +58,7 @@ function App() {
     <ul className="column">
       <li>tv</li>
       <li>wifi</li>
-      <li><FontAwesomeIcon icon="fa-solid fa-utensils" />kitchen</li>
+      <li><BsWifi />kitchen</li>
       <li>first aid</li>
       <li>transportation</li>
       
@@ -73,6 +77,7 @@ function App() {
    </div>
    );
   }
+  export IconBase;
   
   export default App;
 

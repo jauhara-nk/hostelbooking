@@ -38,12 +38,12 @@
 }
 /* Apply CSS to the entire table */
 .table-design {
-  border-collapse: collapse; /* Merge cell borders */
+  border-collapse: collapse;  /*Merge cell borders */
   border: 1px solid white;  /* invisible border around the table */
-  width: 60%; /* Make the table responsive */
+  display: flex; /* Make the table responsive */
   
-
 }
+
 
 
 
@@ -82,7 +82,7 @@ tr:nth-child(even) {
 
 .bed-image
 {
-  height: 300%;
+  height: 500%;
   width: 100%;
  
 }

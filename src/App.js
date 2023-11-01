@@ -28,8 +28,8 @@ function App() {
 <table className="table-design">
     <tbody>
       <tr>
-        <td rowSpan={2} colspan={2}>
-          <img src="bathroom.jpg" className="bed-image" />
+  <td rowSpan={2} >
+          <img src="hostelbed.jpg" className="bed-image" />
         </td>
         <td>
           <img src="bathroom.jpg" className="image" />
@@ -41,10 +41,12 @@ function App() {
         </td>
       </tr>
     </tbody>
-  </table>
+</table>
+
+
   <h4 className="heading-style">Overview</h4>
   <ul className="list-design">
-    <li><CiHome />2 beds</li>
+    <li><CiHome/>2 beds</li>
     <li>1 private bath</li>
   </ul>
 <br></br>

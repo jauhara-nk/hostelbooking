@@ -3,10 +3,10 @@ import './App.css';
 
 import { useState } from 'react'
 import './App.css'
-// import Header from './Header'
-// import Sidebar from './Sidebar'
-// import Home from './Home'
-import Hostelpage from './hostel.js';
+ import Header from './header'
+ import Sidebar from './sidebar'
+ import Home from './home'
+// import Hostelpage from './hostel.js';
 
 {/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'; // You can import any icons you need
@@ -23,7 +23,15 @@ ReactDOM.render(element, document.body)*/}
 
 function App() {
   return (
-    <div className="App"><Hostelpage /></div>
+    <div className="App">
+      {/* <Hostelpage /> */}
+      {/* <Home /> */}
+      <Header />
+      <Sidebar />
+    
+    
+    
+    </div>
     
       );
   }

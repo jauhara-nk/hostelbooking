@@ -6,6 +6,11 @@ import {PiTelevisionFill} from 'react-icons/pi';
 import {FaBus} from 'react-icons/fa';
 import {PiFirstAidLight} from 'react-icons/pi';
 import {CiHome} from 'react-icons/ci';
+import { useState } from 'react'
+import './App.css'
+import Header from './Header'
+import Sidebar from './Sidebar'
+import Home from './Home'
 
 {/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'; // You can import any icons you need
@@ -28,7 +33,7 @@ function App() {
 <table className="table-design">
     <tbody>
       <tr>
-  <td rowSpan={2} >
+  <td rowSpan={2}>
           <img src="hostelbed.jpg" className="bed-image" />
         </td>
         <td>
@@ -85,6 +90,22 @@ function App() {
 
    </div>
    );
+  }
+  function Admin(){
+    const [openSidebarToggle, setOpenSidebarToggle] = useState(false)
+
+  const OpenSidebar = () => {
+    setOpenSidebarToggle(!openSidebarToggle)
+  }
+
+  return (
+    <div className='grid-container'>
+      <Header OpenSidebar={OpenSidebar}/>
+      <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
+      <Home />
+    </div>
+  )
+
   }
   
   

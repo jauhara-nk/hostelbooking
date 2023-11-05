@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,14 +35,14 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 /* Apply CSS to the entire table */
-.table-design {
-  border-collapse: collapse;  /*Merge cell borders */
-  border: 1px solid white;  /* invisible border around the table */
-  display: flex; /* Make the table responsive */
-  
-}
+/* .table-design {
+  border-collapse: collapse;  Merge cell borders 
+  border: 1px solid white;   invisible border around the table 
+  display: flex;  Make the table responsive 
+}*/
+
 
 
 
@@ -140,7 +140,7 @@ Remember to customize the CSS to fit your design and apply the class two-column-
 
  
 }
-hr{
+hr{ 
   color: gray;
 }
 

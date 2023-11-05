@@ -1,7 +1,7 @@
 
 import './App.css';
 
-import { useState } from 'react'
+ import { useState } from 'react'
 import './App.css'
  import Header from './header'
  import Sidebar from './sidebar'
@@ -22,13 +22,20 @@ ReactDOM.render(element, document.body)*/}
 
 
 function App() {
-  return (
-    <div className="App">
+  
+    const [openSidebarToggle, setOpenSidebarToggle] = useState(false)
+
+    const OpenSidebar = () => {
+      setOpenSidebarToggle(!openSidebarToggle)
+    }
+
+    return (
+    <div className="grid-container">
       {/* <Hostelpage /> */}
-      {/* <Home /> */}
-      <Header />
-      <Sidebar />
-    
+        
+      <Header OpenSidebar={OpenSidebar}/>
+      <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
+      <Home />
     
     
     </div>

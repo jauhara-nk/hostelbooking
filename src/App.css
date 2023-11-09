@@ -156,8 +156,8 @@ hr{
 body {
   margin: 0;
   padding: 0;
-  background-color: #1d2634;
-  color: #9e9ea4;
+  background-color: whitesmoke;
+  color: green;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -212,7 +212,7 @@ body {
 #sidebar {
   grid-area: sidebar;
   height: 100%;
-  background-color: #263043;
+  background-color: green;
   overflow-y: auto;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -247,13 +247,13 @@ body {
 }
 
 .sidebar-list-item:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: darkgreen;
   cursor: pointer;
 }
 
 .sidebar-list-item > a {
   text-decoration: none;
-  color: #9e9ea4;
+  color: whitesmoke;
 }
 
 .sidebar-responsive {

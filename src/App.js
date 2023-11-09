@@ -15,6 +15,7 @@ function App() {
     <div className='grid-container'>
       <Header />
       <Sidebar />
+      <Home />
       
       
 

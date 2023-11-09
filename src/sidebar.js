@@ -22,7 +22,7 @@ function Sidebar() {
             </li>
             <li className='sidebar-list-item'>
                 <a href="">
-                    <BsFillArchiveFill className='icon'/> Products
+                    <BsFillArchiveFill className='icon'/> Create manager account
                 </a>
             </li>
             <li className='sidebar-list-item'>
@@ -32,17 +32,17 @@ function Sidebar() {
             </li>
             <li className='sidebar-list-item'>
                 <a href="">
-                    <BsPeopleFill className='icon'/> Customers
+                    <BsPeopleFill className='icon'/> Students
                 </a>
             </li>
             <li className='sidebar-list-item'>
                 <a href="">
-                    <BsListCheck className='icon'/> Inventory
+                    <BsListCheck className='icon'/> View Hostels
                 </a>
             </li>
             <li className='sidebar-list-item'>
                 <a href="">
-                    <BsMenuButtonWideFill className='icon'/> Reports
+                    <BsMenuButtonWideFill className='icon'/> Reports/ Issues
                 </a>
             </li>
             <li className='sidebar-list-item'>
